@@ -338,3 +338,14 @@ func (pos *Position) samePosition(pos2 *Position) bool {
 		pos.castleRights.String() == pos2.castleRights.String() &&
 		pos.enPassantSquare == pos2.enPassantSquare
 }
+
+// Make a null move.
+func (pos *Position) NullMove() *Position {
+	cp := pos.copy()
+	cp.turn = cp.turn.Other()
+	if pos.turn == Black {
+		cp.moveCount++
+	}
+	cp.validMoves = nil
+	return cp
+}
