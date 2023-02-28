@@ -1,5 +1,5 @@
 # chess
-[![Build and Test](https://github.com/notnil/chess/actions/workflows/build-and-test.yaml/badge.svg)](https://github.com/notnil/chess/actions/workflows/build-and-test.yaml)
+[![Build and Test](https://github.com/Sidhant-Roymoulik/chess/actions/workflows/build-and-test.yaml/badge.svg)](https://github.com/Sidhant-Roymoulik/chess/actions/workflows/build-and-test.yaml)
 [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/Sidhant-Roymoulik/chess)
 [![Coverage Status](https://coveralls.io/repos/Sidhant-Roymoulik/chess/badge.svg?branch=master&service=github)](https://coveralls.io/github/Sidhant-Roymoulik/chess?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/Sidhant-Roymoulik/chess)](https://goreportcard.com/report/Sidhant-Roymoulik/chess)
