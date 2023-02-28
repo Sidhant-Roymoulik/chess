@@ -4,12 +4,12 @@ package chess
 type Color int8
 
 const (
-	// NoColor represents no color
-	NoColor Color = iota
 	// White represents the color white
-	White
+	White Color = iota
 	// Black represents the color black
 	Black
+	// NoColor represents no color
+	NoColor
 )
 
 // Other returns the opposite color of the receiver.
